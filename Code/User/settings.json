@@ -1,8 +1,0 @@
-{
-    "workbench.colorTheme": "One Dark Pro",
-    "powermode.enabled": true,
-    "code-runner.clearPreviousOutput": true,
-    "code-runner.runInTerminal": true,
-    "code-runner.saveFileBeforeRun": true,
-    "code-runner.saveAllFilesBeforeRun": true
-}
