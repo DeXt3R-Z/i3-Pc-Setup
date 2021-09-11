@@ -1,0 +1,37 @@
+file:///home/dext3r/DSA/Structures/Q1.cpp {"mtime":1625314607200,"ctime":1625313055697,"size":707,"etag":"376cfmhcmmp","orphaned":false,"typeId":""}
+#include<iostream>
+#include<string>
+#include<stdio.h>
+using namespace std;
+
+struct Details{
+    int roll;
+    int age;
+    string name;
+} d[5];
+
+int main()
+{
+    for(int i=0;i<5;i++)
+    {
+        cout<<"Enter the name of student "<<i+1<<" : ";
+        cin>>d[i].name;
+        cout<<"Enter the roll number of student "<<i+1<<" : ";
+        cin>>d[i].roll;
+        cout<<"Enter the age of student "<<i+1<<" : ";
+        cin>>d[i].age;
+        cout<<endl;
+    }
+    for(int i=0;i<5;i++)
+    {
+        if(d[i].roll==2)
+        {
+            cout<<"Name of student "<<i+1<<" : "<<d[i].name<<endl;
+            cout<<"Roll Number of student "<<i+1<<" : "<<d[i].roll<<endl;
+            cout<<"Age of student "<<i+1<<" : "<<d[i].age<<endl;
+            cout<<endl;
+        }
+    }
+    return 0;
+
+}
